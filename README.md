@@ -1,6 +1,67 @@
-<img width="406" height="793" alt="image" src="https://github.com/user-attachments/assets/a9ff69fa-8857-49a5-bbcb-1c98a3e4a69e" />
+<p align="center">
+  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma"/>
+</p>
 
-# Черновик приложения
-<img width="658" height="929" alt="Диаграмма без названия drawio" src="https://github.com/user-attachments/assets/3e69b14f-5547-4ebd-bf9a-2f708b58db57" />
-<img width="566" height="889" alt="image" src="https://github.com/user-attachments/assets/52ccf51c-aaac-4863-bd56-6e2d37d10502" />
+# Sunflower Grocery App
 
+Приложение для заказа продуктов питания и поиска рецептов
+. Приложение предоставляет пользователям удобный интерфейс для просмотра каталога товаров, управления корзиной и поиска кулинарных рецептов.
+
+
+## Скриншоты и Интерфейс
+
+<p align="center">
+  <!-- Экран Входа -->
+  <img width="350" alt="Авторизация" src="https://github.com/user-attachments/assets/7b63b58f-d777-4fcb-8ab3-0e7c17c0dc2a" />
+  
+  <!-- Экран Каталога и Главный экран -->
+  <img width="350" alt="Каталог" src="https://github.com/user-attachments/assets/70d86c8b-9974-4205-ba32-db50a9276fcb" />
+
+  <!-- Экран Рецептов -->
+  <img width="350" alt="Рецепты" src="https://github.com/user-attachments/assets/5c8721ec-92a2-4e75-9846-951f9f7ea3b3" />
+</p>
+
+<p align="center">
+  <!-- Карточка Товара -->
+  <img width="350" alt="Карточка товара" src="https://github.com/user-attachments/assets/d1bb0a55-09eb-452e-bae7-11818321ed2c" />
+
+  <!-- Детали Рецепта и Корзина -->
+  <img width="350" alt="Карточка рецепта" src="https://github.com/user-attachments/assets/1512c213-434a-4968-a859-326fa1b1fde7" />
+</p>
+
+## Основной функционал
+
+### Каталог и Поиск Товаров
+*   **Поиск по товарам:** Удобная строка поиска.
+*   **Категории:** Быстрый доступ к разделам (Фрукты, Овощи и др.).
+*   **Акции и Предложения:** Рекламные баннеры (например, "Скидка 20% на все фрукты").
+*   **Сетка товаров:** Отображение популярных товаров с ценой, весом и кнопкой добавления в корзину.
+
+### Рецепты и Кулинария
+*   **Поиск по рецептам:** Отдельная строка поиска для кулинарных рецептов.
+*   **Список рецептов:** Карточки с названием, кратким описанием, КБЖУ, ценой за порцию и быстрым добавлением ингредиентов в корзину.
+*   **Добавление в Избранное:** Возможность сохранять понравившиеся рецепты.
+*   **Детали рецепта:** Подробное описание, КБЖУ на порцию, список ингредиентов с ценами и галочками выбора.
+
+### Управление Корзиной и Заказом
+*   **Простая корзина:** Отображение товаров в корзине с возможностью изменять количество.
+*   **Кнопка "В корзину":** Кнопка на экране деталей товара для быстрого добавления.
+*   **Расчёт КБЖУ:** Автоматический расчёт калорий, белков, жиров и углеводов для товаров.
+
+## Технологический стек
+
+Проект находится на этапе проектирования и активной разработки. В архитектуру приложения заложен следующий стек технологий:
+
+*   **Mobile Frontend:** React Native (TypeScript) — кроссплатформенная мобильная разработка.
+*   **Backend API:** C# / .NET 8 (ASP.NET Core Web API) — обработка бизнес-логики, REST API и сервисов.
+*   **Database:** MySQL / Entity Framework Core — хранение пользователей, каталога товаров, рецептов и заказов.
+*   **Caching & Sessions:** Redis — кэширование частых запросов к каталогу, хранение сессий и временных данных.
+*   **DevOps & Infrastructure:** Docker & Docker Compose — контейнеризация бэкенд-сервисов, базы данных и Redis для быстрого разворачивания и CI/CD.
+*   **UI/UX Prototyping:** Figma — проектирование макетов, интерактивных прототипов и пользовательских сценариев.
