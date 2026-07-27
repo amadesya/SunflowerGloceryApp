@@ -19,21 +19,21 @@
 
 <p align="center">
   <!-- Экран Входа -->
-  <img width="350" alt="Авторизация" src="https://github.com/user-attachments/assets/7b63b58f-d777-4fcb-8ab3-0e7c17c0dc2a" />
+  <img width="300" alt="Авторизация" src="https://github.com/user-attachments/assets/7b63b58f-d777-4fcb-8ab3-0e7c17c0dc2a" />
   
   <!-- Экран Каталога и Главный экран -->
-  <img width="350" alt="Каталог" src="https://github.com/user-attachments/assets/70d86c8b-9974-4205-ba32-db50a9276fcb" />
+  <img width="300" alt="Каталог" src="https://github.com/user-attachments/assets/70d86c8b-9974-4205-ba32-db50a9276fcb" />
 
   <!-- Экран Рецептов -->
-  <img width="350" alt="Рецепты" src="https://github.com/user-attachments/assets/5c8721ec-92a2-4e75-9846-951f9f7ea3b3" />
+  <img width="300" alt="Рецепты" src="https://github.com/user-attachments/assets/5c8721ec-92a2-4e75-9846-951f9f7ea3b3" />
 </p>
 
 <p align="center">
   <!-- Карточка Товара -->
-  <img width="350" alt="Карточка товара" src="https://github.com/user-attachments/assets/d1bb0a55-09eb-452e-bae7-11818321ed2c" />
+  <img width="300" alt="Карточка товара" src="https://github.com/user-attachments/assets/d1bb0a55-09eb-452e-bae7-11818321ed2c" />
 
   <!-- Детали Рецепта и Корзина -->
-  <img width="350" alt="Карточка рецепта" src="https://github.com/user-attachments/assets/1512c213-434a-4968-a859-326fa1b1fde7" />
+  <img width="300" alt="Карточка рецепта" src="https://github.com/user-attachments/assets/1512c213-434a-4968-a859-326fa1b1fde7" />
 </p>
 
 ## Основной функционал
