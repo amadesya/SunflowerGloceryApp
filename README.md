@@ -71,9 +71,7 @@
 
 *   **Mobile Frontend:** React Native (TypeScript) — кроссплатформенная мобильная разработка.
 *   **Backend API:** C# / .NET 8 (ASP.NET Core Web API) — обработка бизнес-логики, REST API и сервисов.
-*   **Database:** PostgreSQL<img width="412" height="1000" alt="Корзина" src="https://github.com/user-attachments/assets/13a83f85-e282-49f6-a467-39758f2d912e" />
-<img width="412" height="1000" alt="Корзина" src="https://github.com/user-attachments/assets/78556916-38be-4ef0-bffa-a2a24eeeb6ba" />
- / Entity Framework Core — хранение пользователей, каталога товаров, рецептов и заказов.
+*   **Database:** PostgreSQL / Entity Framework Core — хранение пользователей, каталога товаров, рецептов и заказов.
 *   **Caching & Sessions:** Redis — кэширование частых запросов к каталогу, хранение сессий и временных данных.
 *   **DevOps & Infrastructure:** Docker & Docker Compose — контейнеризация бэкенд-сервисов, базы данных и Redis для быстрого разворачивания и CI/CD.
 *   **UI/UX Prototyping:** Figma — проектирование макетов, интерактивных прототипов и пользовательских сценариев.
