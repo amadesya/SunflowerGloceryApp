@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core"/>
   <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white" alt="postgresql"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma"/>
@@ -34,6 +34,7 @@
 
   <!-- Детали Рецепта и Корзина -->
   <img width="250" alt="Карточка рецепта" src="https://github.com/user-attachments/assets/1512c213-434a-4968-a859-326fa1b1fde7" />
+  <img width="250" alt="Корзина" src="https://github.com/user-attachments/assets/94d7e9b8-e454-4ee2-a3ba-dc880416ec61" />
 </p>
 
 ## Основной функционал
@@ -61,7 +62,9 @@
 
 *   **Mobile Frontend:** React Native (TypeScript) — кроссплатформенная мобильная разработка.
 *   **Backend API:** C# / .NET 8 (ASP.NET Core Web API) — обработка бизнес-логики, REST API и сервисов.
-*   **Database:** MySQL / Entity Framework Core — хранение пользователей, каталога товаров, рецептов и заказов.
+*   **Database:** PostgreSQL<img width="412" height="1000" alt="Корзина" src="https://github.com/user-attachments/assets/13a83f85-e282-49f6-a467-39758f2d912e" />
+<img width="412" height="1000" alt="Корзина" src="https://github.com/user-attachments/assets/78556916-38be-4ef0-bffa-a2a24eeeb6ba" />
+ / Entity Framework Core — хранение пользователей, каталога товаров, рецептов и заказов.
 *   **Caching & Sessions:** Redis — кэширование частых запросов к каталогу, хранение сессий и временных данных.
 *   **DevOps & Infrastructure:** Docker & Docker Compose — контейнеризация бэкенд-сервисов, базы данных и Redis для быстрого разворачивания и CI/CD.
 *   **UI/UX Prototyping:** Figma — проектирование макетов, интерактивных прототипов и пользовательских сценариев.
