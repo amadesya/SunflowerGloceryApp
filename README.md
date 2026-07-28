@@ -34,8 +34,12 @@
       <img src="https://github.com/user-attachments/assets/d1bb0a55-09eb-452e-bae7-11818321ed2c" alt="Карточка товара" />
     </td>
     <td width="33%" align="center" valign="top">
-      <img src="https://github.com/user-attachments/assets/1512c213-434a-4968-a859-326fa1b1fde7" alt="Карточка рецепта" />
+      <img src="https://github.com/user-attachments/assets/593ca2fc-e4e5-49bc-8985-7354cc1e6dcd" alt="Карточка рецепта" />
+    <td width="33%" align="center" valign="top">
+      <img src="https://github.com/user-attachments/assets/ff1486ad-425b-43d3-8266-af2534a13b6a" alt="Карточка рецепта" />
     </td>
+  </tr>
+  <tr>
     <td width="33%" align="center" valign="top">
       <img src="https://github.com/user-attachments/assets/94d7e9b8-e454-4ee2-a3ba-dc880416ec61" alt="Корзина" />
     </td>
