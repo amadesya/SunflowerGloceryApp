@@ -1,4 +1,4 @@
-<img width="33%" alt="Sunflower logo" src="https://github.com/user-attachments/assets/4c1360b7-644b-438b-ac96-5bac940f9183" />
+<img width="100%" alt="Sunflower logo" src="https://github.com/user-attachments/assets/4c1360b7-644b-438b-ac96-5bac940f9183" />
 
 # Sunflower Grocery App
 
