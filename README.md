@@ -1,3 +1,7 @@
+<img width="100%" alt="Sunflower logo" src="https://github.com/user-attachments/assets/4c1360b7-644b-438b-ac96-5bac940f9183" />
+
+# Sunflower Grocery App
+
 <p align="center">
   <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
@@ -8,8 +12,6 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma"/>
 </p>
-
-# Sunflower Grocery App
 
 Приложение для заказа продуктов питания и поиска рецептов. Приложение предоставляет пользователям удобный интерфейс для просмотра каталога товаров, управления корзиной и поиска кулинарных рецептов.
 
