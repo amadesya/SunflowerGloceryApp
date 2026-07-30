@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "SunflowerApp",
-    "slug": "SunflowerApp",
+    "name": "frontend-new",
+    "slug": "frontend-new",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "sunflowerapp",
+    "scheme": "frontendnew",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
