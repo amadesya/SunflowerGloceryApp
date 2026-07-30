@@ -1,0 +1,10 @@
+node_modules
+.expo
+.git
+.gitignore
+npm-debug.log
+android
+ios
+.env
+*.log
+debug-storybook.log
