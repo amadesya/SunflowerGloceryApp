@@ -3,10 +3,11 @@ export const Colors = {
   beige: "#FDE2CD",
   brown: "#652D0A",
   orange: "#EC642A",
-  primary: "#D5521C",
-  primaryHover: "#B84112",
+  primary: "#EC642A",
+  primaryHover: "#D7551D",
   link: "#B1876C",
   yellow: "#FBAB22",
+  red: "#C62828",
 };
 
 export const Gaps = {

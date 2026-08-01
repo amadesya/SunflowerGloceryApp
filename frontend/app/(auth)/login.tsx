@@ -1,12 +1,20 @@
 import { Button } from "@/shared/Button";
+import { ErrorNotification } from "@/shared/ErrorNotification";
 import { Input } from "@/shared/Input";
 import { Colors, FontSizes, Gaps } from "@/shared/tokens";
 import { Link } from "expo-router";
+import { useState } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 
 export default function Login() {
+    const [error, setError] = useState<string | undefined>();
+    const alert = () => {
+        setError('Неверный логин или пароль');
+    }
+
     return (
         <View style={styles.container}>
+            <ErrorNotification error={error} />
             <View style={styles.content}>
                 <Image
                     source={require('@/assets/images/sunflower.png')}
@@ -20,7 +28,7 @@ export default function Login() {
                     <Link href={'/restore'}>
                         <Text>Забыли пароль?</Text>
                     </Link>
-                    <Button title="Войти" />
+                    <Button title="Войти" onPress={alert} />
                     <Button title="Регистрация" />
                 </View>
             </View>
@@ -31,6 +39,7 @@ export default function Login() {
 const styles = StyleSheet.create({
     container: {
         justifyContent: 'center',
+        alignItems: 'stretch',
         flex: 1,
         padding: 55,
         backgroundColor: Colors.beige
