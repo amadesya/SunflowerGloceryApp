@@ -57,6 +57,7 @@ const styles = StyleSheet.create({
     errorText: {
         color: Colors.white,
         fontSize: FontSizes.f16,
-        textAlign: 'center'
+        textAlign: 'center',
+        fontFamily: 'Inter-Regular'
     }
 })

@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
         paddingVertical: 16,
         borderRadius: Radius.r16,
         fontSize: FontSizes.f16,
+        fontFamily: 'Inter-Regular',
         color: Colors.brown
     },
     eyeIcon:{
