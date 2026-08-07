@@ -25,3 +25,8 @@ export const FontSizes = {
   f18: 18,
   f24: 24,
 };
+
+export const Fonts = {
+  regular: "Inter-Regular",
+  bold: "Inter-Bold",
+};

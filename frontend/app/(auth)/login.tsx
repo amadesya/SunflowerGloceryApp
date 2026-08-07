@@ -2,7 +2,7 @@ import { Button } from "@/shared/Button";
 import { ErrorNotification } from "@/shared/ErrorNotification";
 import { Input } from "@/shared/Input";
 import { Colors, FontSizes, Gaps } from "@/shared/tokens";
-import { Link } from "expo-router";
+import { Link, router } from "expo-router";
 import { useState } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 
@@ -10,7 +10,14 @@ export default function Login() {
     const [error, setError] = useState<string | undefined>();
     const alert = () => {
         setError('Неверный логин или пароль');
+        setTimeout(() => {
+            setError(undefined);
+        }, 4000);
     }
+
+    const handleGuestLogin = () => {
+        router.push('/profile');
+    };
 
     return (
         <View style={styles.container}>
@@ -29,7 +36,8 @@ export default function Login() {
                         <Text>Забыли пароль?</Text>
                     </Link>
                     <Button title="Войти" onPress={alert} />
-                    <Button title="Регистрация" />
+                    <Button title="Регистрация"/>
+                    <Button title="Войти как гость" onPress={handleGuestLogin} />
                 </View>
             </View>
         </View>
